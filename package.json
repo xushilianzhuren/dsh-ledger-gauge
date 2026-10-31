@@ -1,0 +1,26 @@
+{
+  "name": "dsh-ledger-gauge",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "读数台插件：读数纪律写成常驻系统提示；附台账面（全部 jsonl 台账条数/最后时间/体量）与台账查工具。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

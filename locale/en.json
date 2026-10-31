@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Reading Gauge",
+    "description": "Mounts reading discipline (three tiers, four-part readings, ledgers as readings, staleness rots) and offers ledger atlas / lookup tools over every jsonl ledger."
+  }
+}

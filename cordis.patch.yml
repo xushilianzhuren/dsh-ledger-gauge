@@ -1,0 +1,10 @@
+# 读数台 · 插件化
+# 接「度量与账本」族：价值函数/成本账/存在面读数散在一堆写死旧根的死件里，
+# 但台账本身在盘。故原生读账，不包死件。
+- insert:
+    - id: ql-gauge
+      name: 'dsh-ledger-gauge'
+      config:
+        enabled: true
+        order: 120
+        tool: true
